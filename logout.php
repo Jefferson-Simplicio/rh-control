@@ -6,4 +6,4 @@ if (!isset($_SESSION)){
 }
 
 session_destroy();
-header("Locationt: login.php");
+header("Location: login.php");
